@@ -106,6 +106,7 @@ header .NavContainer{
     margin: 20px 0px;
     flex-wrap: wrap;
     border-radius: 10px;
+    background-color: #ffffff00;
 }
 
 .blog-box{
@@ -125,6 +126,7 @@ header .NavContainer{
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px 10px 0px 0px;
 }
 .blog-text{
     padding: 30px;
@@ -244,6 +246,7 @@ header .NavContainer{
     height: 560px;
     width: 1000px;
     margin: 0 auto;
+    position: relative;
 }
 .slide {
     float: left;
@@ -255,7 +258,6 @@ header .NavContainer{
 }
 .Slide-title{
     z-index: 10;
-    position: relative;
     padding: 0 10px;
     background-color: #ffffff00;
     color: #ffffff;
@@ -280,3 +282,175 @@ header .NavContainer{
         margin-left: calc(-1000px * 3);
     }
 }
+.Pic-heading{
+    background-color: #ffffff00;
+}
+.Pic-heading span{
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 800;
+    background-color: #ffffff00;
+}
+.Pic{
+    margin: 20px;
+    border-radius: 20px;
+    width: 90%;
+    justify-content: center;
+    background-color: #ffffff00;
+}
+.MainPic{
+    justify-content: center;
+    width: 95%;
+    background-color: #ffffff00;
+    padding-left: 5%;
+}
+.Descryption{
+    padding: 20px 130px;
+    background-color: #ffffff00;
+}
+.Descryption p{
+    background-color: #ffffff00;
+    font-weight: 500;
+}
+.Descryption-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    width: 80%;
+    border-radius: 20px;
+}
+.Descryption-container h2{
+    font-size: 2rem;
+    background-color: #ffffff00;
+    text-align: center;
+    padding-top: 40px;
+}
+.Descryption-container h4{
+    font-size: 0.7rem;
+    background-color: #ffffff00;
+    text-align: center;
+    font-weight: 500;
+}
+.Descryption-container h3{
+    font-size: 2rem;
+    background-color: #ffffff00;
+    text-align: center;
+    padding: 20px 0px;
+}
+.Box1{
+    display: flex;
+    background-color: #ffffff00;
+    padding: 0px 10%;
+    padding-bottom: 20px;
+}
+.Des-box{
+    width:650px;
+    background-color: rgba(229, 229, 229, 0.697);
+    border: 1px solid #ececec;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+.Des-text{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #272727;
+    background-color: #ffffff00;
+    padding: 20px 10px;
+}
+.Des-text span{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    background-color: #ffffff00;
+}
+.Des-text p{
+    background-color: #ffffff00;
+}
+.Des-text h2{
+    padding: 20px 0px;
+}
+.GP-box{
+    width:96%;
+    background-color: rgba(229, 229, 229, 0.697);
+    border: 1px solid #ececec;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+.tweet-box{
+    width:96%;
+    background-color: #ffffff00;
+    margin: 20px 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+/*----------------- Review Page -----------------*/
+.testimonials{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+  }
+  .innerB{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .borderB{
+    width: 160px;
+    height: 5px;
+    background: #103500;
+    margin: 26px auto;
+  }
+
+.rowB :hover{
+    color: #c33b64;
+}
+  
+  .rowB{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .colB{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial{
+    background: #fff;
+    padding: 30px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .stars{
+    color: #6ab04c;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:960px) {
+  .colB{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .colB{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
