@@ -1,10 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: poppins;
-    box-sizing: border-box;
-    background-color: rgba(172, 132, 132, 0.15);
-}
+
 ul{
     list-style: none;
 }
@@ -16,7 +10,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
-    background-color: rgba(255, 255, 255, 0.15);   
+    background-color: rgba(146, 135, 135, 0.273);   
 }
 header{
     padding: 1rem 2rem 0;
@@ -49,6 +43,9 @@ header .NavContainer{
     font-weight: bold;
     background-color: #ffffff00;
 }
+.NavLogo span{
+    padding-left: 15px;
+}
 .NavTitle{
     background-color: #ffffff00;
 }
@@ -74,7 +71,7 @@ header .NavContainer{
     background-color: #ffffff00;
 }
 .NavLink :hover{
-    color:#c33b64;
+    color:#db2828;
 }
 /*--blog--------------------------*/
 #blog{
@@ -94,7 +91,7 @@ header .NavContainer{
     background-color: #ffffff00;
 }
 .blog-heading span{
-    color: #c33b64;
+    color: #c72727;
     font-size: 3rem;
     font-weight: 700;
     background-color: #ffffff00;
@@ -161,7 +158,7 @@ header .NavContainer{
     margin: auto;
 }
 .blog-text a:hover{
-    color: #c33b64;
+    color: #db2828;
     transition: all ease 0.3s;
 }
 .footer{
@@ -407,7 +404,7 @@ header .NavContainer{
   }
 
 .rowB :hover{
-    color: #c33b64;
+    color: #f33c3c;
 }
   
   .rowB{
