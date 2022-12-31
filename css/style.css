@@ -386,24 +386,24 @@ header .NavContainer{
 .testimonials{
     padding: 40px 0;
     background: #f1f1f1;
-    color: rgb(150, 59, 59);
-    text-align: center;    
+    color: rgb(173, 74, 74);
+    text-align: center;
+    margin: auto;    
 }
 .innerB{
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
-    ;
+    border-radius: 10px;
+    background-color: rgba(229, 229, 229, 0.697);
     
 } 
 .borderB{
-    width: 160px;
+    width: 260px;
     height: 5px;
-    background: #103500;
+    background: #000000;
     margin: 26px auto;
-    
-    
 }
 .rowB :hover{
     color: #000000;
@@ -421,7 +421,13 @@ header .NavContainer{
     padding: 15px;
 }
 .testimonial{
-    background: rgb(150, 59, 59);
+    background: linear-gradient(#e66465, #414542);
+    padding: 30px;
+    border-radius: 10px;
+    color: #edecec
+}
+.testimonial1{
+    background: linear-gradient(#e66465, #13c2c5);
     padding: 30px;
     border-radius: 10px;
     color: #ffffff
@@ -435,7 +441,7 @@ header .NavContainer{
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0;
-    color: #f1f1f1;
+    color: #ffffff;
 }
 .stars{
     color: #ffffff;

@@ -1,0 +1,128 @@
+ 
+
+:root{
+    /*--main--color:#02333c;*/
+    --First--color:#272727;
+}
+
+.new .heading{
+    font-size: 2rem;
+    background-color: #ffffff00;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.new{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eee;
+}
+ 
+.new .new-content{
+    position: relative;
+    overflow: hidden;
+    
+}
+.new .new-content:before{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-color: var(--First--color);
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    top:0;
+}
+.new .new-content .year{
+    margin: 20px auto;
+    width: 100px;
+    background-color:  var(--First--color);
+    position: relative;
+    z-index: 2;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+.new .new-content .left,
+.new .new-content .right{
+    width: 545.4px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.new .new-content .left:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border:3px solid var(--First--color);
+    position: absolute;
+    right: -35px;
+    border-radius: 50%;
+    top: 20px;
+}
+.new .new-content .right:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border:3px solid var(--First--color);
+    position: absolute;
+    left: -35px;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.new .new-content .left{
+    float:left;
+    left: 189px;
+}
+.new .new-content .right{
+    float: right;
+    right: 189px;
+}
+.new .new-content .content{
+    padding: 20px;
+    background-color: #fff;
+}
+.new .new-content .content h3{
+   font-weight: bold;
+    color: var(--First--color);
+    margin: 0 0 10px;
+}
+.new .new-content .content p{
+  color: #666;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.new .new-content .left .content:before{
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent #fff;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: -20px;
+    top: 20;
+}
+.new .new-content .right .content:before{
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #fff transparent transparent ;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: -20px;
+    top: 20;
+}
+
+
+

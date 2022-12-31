@@ -95,12 +95,16 @@ height: 300px;
     height: 485px;
     padding: 40px 20px;
 }
-.row video,
+.row iframe{
+    transition: all 1s;
+    border-radius: 5px;
+    border: rgb(52 24 24) 3px solid;
+}
 .row audio{
     transition: all 1s;
     border-radius: 30px;
 }
-.row video:hover,
+.row iframe:hover,
 .row audio:hover{
     box-shadow: 0px 0px 40px 20px rgb(52 24 24);
 }
